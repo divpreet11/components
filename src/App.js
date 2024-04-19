@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import MyClassComponent from './components/MyClassComponent';
+// import MyFunctionComponent from './components/MyFunctionComponent';
+// import FunctionComponentWithButton from './components/FunctionComponentWithButton';
+import ModifyClassComponent from './components/ModifyClassComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Class Component</h1>
+      <MyClassComponent/>
+      <h1>Function Component</h1>
+      <MyFunctionComponent/> */}
+      {/* <FunctionComponentWithButton /> */}
+      <ModifyClassComponent/>
     </div>
   );
 }
